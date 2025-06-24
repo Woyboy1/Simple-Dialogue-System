@@ -10,9 +10,12 @@ Simple Dialogue System is a simple system that can display dialogue in a simple 
 
 *Features*
 ***Dialogue System prefab***
+
 - Animation
 - DialogueManager.cs
+
 ***Dialogue Related scripts***
+  
 - Dialogue.cs
 - DialogueManager.cs
 - DialogueTrigger.cs
@@ -22,14 +25,17 @@ Simple Dialogue System is a simple system that can display dialogue in a simple 
 ---
 
 *The Scripts*
-Dialogue
+***Dialogue***
+
 A regular class that does not inherit MonoBehavior but is System.Serializable
 Contains an array of strings that holds all the messages in a dialogue
 
-DialogueTrigger
+***DialogueTrigger***
+
 A simple script that contains a dialogue object that uses as reference to call the DialogueManager.Instance.StartDialogue() method
 
-DialogueManager
+***DialogueManager***
+
 Manager class that writes, gets input, and animates the dialogue box
 Simple show and hide animation
 
